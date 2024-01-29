@@ -11,7 +11,7 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
     console.log('Dialogflow Request headers: ' + JSON.stringify(request.headers));
     console.log('Dialogflow Request body: ' + JSON.stringify(request.body));
 
-    const googleBooksApiKey = 'AIzaSyA-LEfMWxblgL8vEDsMQR81VM5HpQo_Szw';
+    const googleBooksApiKey = 'γοογλε βοοκσ απι κευ';
     const googleBooksApiUrl = 'https://www.googleapis.com/books/v1/volumes';
 
     function GetRandomWords(frases){
